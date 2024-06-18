@@ -6,8 +6,7 @@ body {
 .title {
     text-align: center;
     font-size: 48px;
-    font-family: "Playwrite PL";
-    font-weight: bold;
+    font-family: "Playwrite NL", cursive;
     color: white;
 }
 
@@ -15,7 +14,6 @@ body {
     border-radius: 10px;
     height: 100px;
     width: 200px;
-    box-shadow: 2px;
     font-size: 40px;
     font-family: "Quicksand";
 }
@@ -25,4 +23,24 @@ button {
     position:relative;
     top:200px; 
     left:38%;
+}
+
+.back {
+    position:relative;
+    top:18px; 
+    left:53px;
+    border-radius: 10px;
+    background-color: pink;
+    box-shadow: none;
+    font-family: "Quicksand";
+    height: 40px;
+    width: 80px;
+}
+
+label.bill, .bill {
+    position: relative;
+    top: 100px;
+    left: 100px;
+    height: 40px;
+    width: 90px;
 }
